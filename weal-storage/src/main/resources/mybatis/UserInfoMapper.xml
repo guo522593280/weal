@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.UserInfo">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="TELEPHONE" jdbcType="VARCHAR" property="telephone" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="HEAD_PORTRAIT" jdbcType="VARCHAR" property="headPortrait" />
+    <result column="ACCOUNT_NUMBER" jdbcType="VARCHAR" property="accountNumber" />
+    <result column="PASS_WORD" jdbcType="VARCHAR" property="passWord" />
+    <result column="NICK_NAME" jdbcType="VARCHAR" property="nickName" />
+    <result column="NICK_NAME_PY" jdbcType="VARCHAR" property="nickNamePy" />
+    <result column="AGE" jdbcType="INTEGER" property="age" />
+    <result column="SEX" jdbcType="INTEGER" property="sex" />
+    <result column="BIRTHDAY" jdbcType="DATE" property="birthday" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="ID_CARD_NO" jdbcType="VARCHAR" property="idCardNo" />
+    <result column="AUTOGRAPH" jdbcType="VARCHAR" property="autograph" />
+    <result column="LAST_LOGIN_DATE" jdbcType="TIMESTAMP" property="lastLoginDate" />
+    <result column="LAST_LOGIN_IP" jdbcType="VARCHAR" property="lastLoginIp" />
+    <result column="USER_TYPE" jdbcType="INTEGER" property="userType" />
+    <result column="USER_STATUS" jdbcType="INTEGER" property="userStatus" />
+    <result column="UPDATE_DATE" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="UPDATE_BY" jdbcType="INTEGER" property="updateBy" />
+    <result column="INVITE_BY" jdbcType="INTEGER" property="inviteBy" />
+    <result column="INVITE_DATE" jdbcType="TIMESTAMP" property="inviteDate" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, PHONE, TELEPHONE, EMAIL, HEAD_PORTRAIT, ACCOUNT_NUMBER, PASS_WORD, NICK_NAME, 
+    NICK_NAME_PY, AGE, SEX, BIRTHDAY, ADDRESS, USER_NAME, ID_CARD_NO, AUTOGRAPH, LAST_LOGIN_DATE, 
+    LAST_LOGIN_IP, USER_TYPE, USER_STATUS, UPDATE_DATE, UPDATE_BY, INVITE_BY, INVITE_DATE, 
+    CREATE_DATE
+  </sql>
+</mapper>

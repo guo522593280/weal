@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.GameteamMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Gameteam">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="TEAM_ID" jdbcType="INTEGER" property="teamId" />
+    <result column="TEAM_MODEL" jdbcType="VARCHAR" property="teamModel" />
+    <result column="IN_BALL" jdbcType="INTEGER" property="inBall" />
+    <result column="ATTACK" jdbcType="INTEGER" property="attack" />
+    <result column="DANGEROUS" jdbcType="INTEGER" property="dangerous" />
+    <result column="SHOOT" jdbcType="INTEGER" property="shoot" />
+    <result column="ONTARGET" jdbcType="INTEGER" property="ontarget" />
+    <result column="FREEKICK" jdbcType="INTEGER" property="freekick" />
+    <result column="CORNER" jdbcType="INTEGER" property="corner" />
+    <result column="OFFSIDE" jdbcType="INTEGER" property="offside" />
+    <result column="FOUL" jdbcType="INTEGER" property="foul" />
+    <result column="YELLOW_CARD" jdbcType="INTEGER" property="yellowCard" />
+    <result column="RED_CARD" jdbcType="INTEGER" property="redCard" />
+    <result column="POSSESSION" jdbcType="DOUBLE" property="possession" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, TEAM_ID, TEAM_MODEL, IN_BALL, ATTACK, DANGEROUS, SHOOT, ONTARGET, FREEKICK, 
+    CORNER, OFFSIDE, FOUL, YELLOW_CARD, RED_CARD, POSSESSION
+  </sql>
+</mapper>

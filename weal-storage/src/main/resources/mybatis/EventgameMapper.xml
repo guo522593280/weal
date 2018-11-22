@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.EventgameMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Eventgame">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="ONE_NUMBER" jdbcType="VARCHAR" property="oneNumber" />
+    <result column="EVENT_DATE" jdbcType="DATE" property="eventDate" />
+    <result column="EVENT_WEEK" jdbcType="INTEGER" property="eventWeek" />
+    <result column="EVENT_NO" jdbcType="VARCHAR" property="eventNo" />
+    <result column="START_DATETIME" jdbcType="TIMESTAMP" property="startDatetime" />
+    <result column="WEATHER" jdbcType="VARCHAR" property="weather" />
+    <result column="TEMPERATURE" jdbcType="VARCHAR" property="temperature" />
+    <result column="LEAGUE_ID" jdbcType="INTEGER" property="leagueId" />
+    <result column="HTEAM_ID" jdbcType="INTEGER" property="hteamId" />
+    <result column="HGAMETEAM_ID" jdbcType="INTEGER" property="hgameteamId" />
+    <result column="VTEAM_ID" jdbcType="INTEGER" property="vteamId" />
+    <result column="VGAMETEAM_ID" jdbcType="INTEGER" property="vgameteamId" />
+    <result column="HALF" jdbcType="VARCHAR" property="half" />
+    <result column="FULL" jdbcType="VARCHAR" property="full" />
+    <result column="HALF_FULL" jdbcType="VARCHAR" property="halfFull" />
+    <result column="TOTALBALL" jdbcType="INTEGER" property="totalball" />
+    <result column="WINORLOSE" jdbcType="INTEGER" property="winorlose" />
+    <result column="LET_BALL" jdbcType="INTEGER" property="letBall" />
+    <result column="LETTHEBALL_WINORLOSE" jdbcType="INTEGER" property="lettheballWinorlose" />
+    <result column="SIZE_WINORLOSE" jdbcType="INTEGER" property="sizeWinorlose" />
+    <result column="DISH_WINORLOSE" jdbcType="INTEGER" property="dishWinorlose" />
+    <result column="EVENT_STATE" jdbcType="INTEGER" property="eventState" />
+    <result column="EVENT_SIGN" jdbcType="INTEGER" property="eventSign" />
+    <result column="EVENT_TYPE" jdbcType="INTEGER" property="eventType" />
+    <result column="VIDEOLINK" jdbcType="VARCHAR" property="videolink" />
+    <result column="ANIMATIONLINK" jdbcType="VARCHAR" property="animationlink" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, ONE_NUMBER, EVENT_DATE, EVENT_WEEK, EVENT_NO, START_DATETIME, WEATHER, TEMPERATURE, 
+    LEAGUE_ID, HTEAM_ID, HGAMETEAM_ID, VTEAM_ID, VGAMETEAM_ID, HALF, FULL, HALF_FULL, 
+    TOTALBALL, WINORLOSE, LET_BALL, LETTHEBALL_WINORLOSE, SIZE_WINORLOSE, DISH_WINORLOSE, 
+    EVENT_STATE, EVENT_SIGN, EVENT_TYPE, VIDEOLINK, ANIMATIONLINK, CREATE_TIME, UPDATE_TIME
+  </sql>
+</mapper>

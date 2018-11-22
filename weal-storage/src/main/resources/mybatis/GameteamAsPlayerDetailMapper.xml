@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.GameteamAsPlayerDetailMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.GameteamAsPlayerDetail">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="GAMETEAM_ID" jdbcType="INTEGER" property="gameteamId" />
+    <result column="PLAYER_ID" jdbcType="INTEGER" property="playerId" />
+    <result column="IN_PLAYER_ID" jdbcType="INTEGER" property="inPlayerId" />
+    <result column="DETAIL_TYPE" jdbcType="INTEGER" property="detailType" />
+    <result column="DETAIL_TIME" jdbcType="INTEGER" property="detailTime" />
+  </resultMap>
+</mapper>

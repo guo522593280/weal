@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.LeagueMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.League">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="LEAGUE_NAME" jdbcType="VARCHAR" property="leagueName" />
+    <result column="LEAGUE_NICK_NAME" jdbcType="VARCHAR" property="leagueNickName" />
+    <result column="LEAGUE_NAME_PY" jdbcType="VARCHAR" property="leagueNamePy" />
+    <result column="LEAGUE_TYPE" jdbcType="INTEGER" property="leagueType" />
+    <result column="LEAGUE_COLOR" jdbcType="VARCHAR" property="leagueColor" />
+    <result column="BRAND_URL" jdbcType="VARCHAR" property="brandUrl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, LEAGUE_NAME, LEAGUE_NICK_NAME, LEAGUE_NAME_PY, LEAGUE_TYPE, LEAGUE_COLOR, BRAND_URL
+  </sql>
+</mapper>

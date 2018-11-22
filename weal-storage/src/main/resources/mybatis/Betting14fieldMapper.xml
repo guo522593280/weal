@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.Betting14fieldMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Betting14field">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="START_DATE" jdbcType="TIMESTAMP" property="startDate" />
+    <result column="END_DATE" jdbcType="TIMESTAMP" property="endDate" />
+    <result column="LOTTERY_DATE" jdbcType="TIMESTAMP" property="lotteryDate" />
+    <result column="ISSUE" jdbcType="VARCHAR" property="issue" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="FIRST_PRIZE_NUMBER" jdbcType="INTEGER" property="firstPrizeNumber" />
+    <result column="FIRST_PRIZE_MONEY" jdbcType="INTEGER" property="firstPrizeMoney" />
+    <result column="FIRST_PRIZE_TOTAL" jdbcType="INTEGER" property="firstPrizeTotal" />
+    <result column="SECOND_PRIZE_NUMBER" jdbcType="INTEGER" property="secondPrizeNumber" />
+    <result column="SECOND_PRIZE_MONEY" jdbcType="INTEGER" property="secondPrizeMoney" />
+    <result column="SECOND_PRIZE_TOTAL" jdbcType="INTEGER" property="secondPrizeTotal" />
+    <result column="HALF_FULL_PRIZE_NUMBER" jdbcType="INTEGER" property="halfFullPrizeNumber" />
+    <result column="HALF_FULL_PRIZE_MONEY" jdbcType="INTEGER" property="halfFullPrizeMoney" />
+    <result column="HALF_FULL_PRIZE_TOTAL" jdbcType="INTEGER" property="halfFullPrizeTotal" />
+    <result column="NINE_PRIZE_NUMBER" jdbcType="INTEGER" property="ninePrizeNumber" />
+    <result column="NINE_PRIZE_MONEY" jdbcType="INTEGER" property="ninePrizeMoney" />
+    <result column="NINE_PRIZE_TOTAL" jdbcType="INTEGER" property="ninePrizeTotal" />
+    <result column="INBALL_PRIZE_NUMBER" jdbcType="INTEGER" property="inballPrizeNumber" />
+    <result column="INBALL_PRIZE_MONEY" jdbcType="INTEGER" property="inballPrizeMoney" />
+    <result column="INBALL_PRIZE_TOTAL" jdbcType="INTEGER" property="inballPrizeTotal" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, START_DATE, END_DATE, LOTTERY_DATE, ISSUE, STATUS, FIRST_PRIZE_NUMBER, FIRST_PRIZE_MONEY, 
+    FIRST_PRIZE_TOTAL, SECOND_PRIZE_NUMBER, SECOND_PRIZE_MONEY, SECOND_PRIZE_TOTAL, HALF_FULL_PRIZE_NUMBER, 
+    HALF_FULL_PRIZE_MONEY, HALF_FULL_PRIZE_TOTAL, NINE_PRIZE_NUMBER, NINE_PRIZE_MONEY, 
+    NINE_PRIZE_TOTAL, INBALL_PRIZE_NUMBER, INBALL_PRIZE_MONEY, INBALL_PRIZE_TOTAL
+  </sql>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Menu">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="MENU_CODE" jdbcType="INTEGER" property="menuCode" />
+    <result column="MENU_NAME" jdbcType="VARCHAR" property="menuName" />
+    <result column="MENU_URL" jdbcType="VARCHAR" property="menuUrl" />
+    <result column="PARENT_CODE" jdbcType="INTEGER" property="parentCode" />
+    <result column="MENU_ORDER" jdbcType="INTEGER" property="menuOrder" />
+    <result column="MENU_TYPE" jdbcType="INTEGER" property="menuType" />
+    <result column="IS_VALID" jdbcType="INTEGER" property="isValid" />
+    <result column="API_PATH" jdbcType="VARCHAR" property="apiPath" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, MENU_CODE, MENU_NAME, MENU_URL, PARENT_CODE, MENU_ORDER, MENU_TYPE, IS_VALID, 
+    API_PATH
+  </sql>
+</mapper>

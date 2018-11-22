@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.EventgameEuMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.EventgameEu">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="WIN" jdbcType="DOUBLE" property="win" />
+    <result column="WIN_LIFT" jdbcType="DOUBLE" property="winLift" />
+    <result column="FLAT" jdbcType="DOUBLE" property="flat" />
+    <result column="FLAT_LIFT" jdbcType="DOUBLE" property="flatLift" />
+    <result column="NEGATIVE" jdbcType="DOUBLE" property="negative" />
+    <result column="NEGATIVE_LIFT" jdbcType="DOUBLE" property="negativeLift" />
+    <result column="LET_BALL" jdbcType="INTEGER" property="letBall" />
+    <result column="RELEASE_DATE" jdbcType="TIMESTAMP" property="releaseDate" />
+    <result column="KELLY_WIN" jdbcType="DOUBLE" property="kellyWin" />
+    <result column="KELLY_WIN_LIFT" jdbcType="DOUBLE" property="kellyWinLift" />
+    <result column="KELLY_FLAT" jdbcType="DOUBLE" property="kellyFlat" />
+    <result column="KELLY_FLAT_LIFT" jdbcType="DOUBLE" property="kellyFlatLift" />
+    <result column="KELLY_NEGATIVE" jdbcType="DOUBLE" property="kellyNegative" />
+    <result column="KELLY_NEGATIVE_LIFT" jdbcType="DOUBLE" property="kellyNegativeLift" />
+    <result column="RATEOF_RETURN" jdbcType="DOUBLE" property="rateofReturn" />
+    <result column="RATEOF_RETURN_LIFT" jdbcType="DOUBLE" property="rateofReturnLift" />
+    <result column="PRO_WIN" jdbcType="DOUBLE" property="proWin" />
+    <result column="PRO_WIN_LIFT" jdbcType="DOUBLE" property="proWinLift" />
+    <result column="PRO_FLAT" jdbcType="DOUBLE" property="proFlat" />
+    <result column="PRO_FLAT_LIFT" jdbcType="DOUBLE" property="proFlatLift" />
+    <result column="PRO_NEGATIVE" jdbcType="DOUBLE" property="proNegative" />
+    <result column="PRO_NEGATIVE_LIFT" jdbcType="DOUBLE" property="proNegativeLift" />
+    <result column="IS_INITIAL" jdbcType="INTEGER" property="isInitial" />
+    <result column="BOOKMAKERS_ID" jdbcType="INTEGER" property="bookmakersId" />
+  </resultMap>
+</mapper>

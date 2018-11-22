@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.Betting14fieldDetailsMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Betting14fieldDetails">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="BETTING14FIELD_ID" jdbcType="INTEGER" property="betting14fieldId" />
+    <result column="SERIAL_NO" jdbcType="VARCHAR" property="serialNo" />
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+  </resultMap>
+</mapper>

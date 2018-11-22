@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.GameteamAsPlayerMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.GameteamAsPlayer">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="GAMETEAM_ID" jdbcType="INTEGER" property="gameteamId" />
+    <result column="PLAYER_ID" jdbcType="INTEGER" property="playerId" />
+    <result column="LOCATION" jdbcType="INTEGER" property="location" />
+    <result column="SERIAL_NUMBER" jdbcType="INTEGER" property="serialNumber" />
+    <result column="START_TYPE" jdbcType="INTEGER" property="startType" />
+    <result column="GOAL" jdbcType="INTEGER" property="goal" />
+    <result column="ASSISTANT" jdbcType="INTEGER" property="assistant" />
+    <result column="SHOOT" jdbcType="INTEGER" property="shoot" />
+    <result column="PASSTHE_BALL" jdbcType="INTEGER" property="passtheBall" />
+    <result column="STEALS" jdbcType="INTEGER" property="steals" />
+    <result column="FOUL" jdbcType="INTEGER" property="foul" />
+    <result column="COVER_FOUL" jdbcType="INTEGER" property="coverFoul" />
+    <result column="OFFSIDE" jdbcType="INTEGER" property="offside" />
+    <result column="CLEARANCE" jdbcType="INTEGER" property="clearance" />
+    <result column="RED_CARD" jdbcType="INTEGER" property="redCard" />
+    <result column="YELLOW_CARD" jdbcType="INTEGER" property="yellowCard" />
+  </resultMap>
+</mapper>

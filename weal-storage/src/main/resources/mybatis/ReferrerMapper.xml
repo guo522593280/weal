@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ReferrerMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Referrer">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="REFERRER_NAME" jdbcType="VARCHAR" property="referrerName" />
+    <result column="REFERRER_NAME_PY" jdbcType="VARCHAR" property="referrerNamePy" />
+    <result column="POINT" jdbcType="INTEGER" property="point" />
+    <result column="HAVELOCAL" jdbcType="VARCHAR" property="havelocal" />
+    <result column="IS_VALID" jdbcType="INTEGER" property="isValid" />
+    <result column="UPDATE_DATE" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="CREATE_BY" jdbcType="INTEGER" property="createBy" />
+    <result column="CREARE_DATE" jdbcType="TIMESTAMP" property="creareDate" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, REFERRER_NAME, REFERRER_NAME_PY, POINT, HAVELOCAL, IS_VALID, UPDATE_DATE, CREATE_BY, 
+    CREARE_DATE, REMARKS
+  </sql>
+</mapper>

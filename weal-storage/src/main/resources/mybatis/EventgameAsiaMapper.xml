@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.EventgameAsiaMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.EventgameAsia">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="HWA" jdbcType="DOUBLE" property="hwa" />
+    <result column="HWA_LIFT" jdbcType="DOUBLE" property="hwaLift" />
+    <result column="VWA" jdbcType="DOUBLE" property="vwa" />
+    <result column="VWA_LIFT" jdbcType="DOUBLE" property="vwaLift" />
+    <result column="DISH" jdbcType="VARCHAR" property="dish" />
+    <result column="DISH_LIFT" jdbcType="INTEGER" property="dishLift" />
+    <result column="RELEASE_DATE" jdbcType="TIMESTAMP" property="releaseDate" />
+    <result column="IS_INITIAL" jdbcType="VARCHAR" property="isInitial" />
+    <result column="BOOK_ID" jdbcType="VARCHAR" property="bookId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.EventgameRichMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.EventgameRich">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="RICH_TYPE" jdbcType="VARCHAR" property="richType" />
+    <result column="RICH" jdbcType="VARCHAR" property="rich" />
+    <result column="RATE" jdbcType="DOUBLE" property="rate" />
+    <result column="RATE_LIFT" jdbcType="DOUBLE" property="rateLift" />
+    <result column="RELEASE_DATE" jdbcType="TIMESTAMP" property="releaseDate" />
+    <result column="IS_INITIAL" jdbcType="VARCHAR" property="isInitial" />
+    <result column="BOOK_ID" jdbcType="VARCHAR" property="bookId" />
+  </resultMap>
+</mapper>

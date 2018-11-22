@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ReferrerAnalyzeMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.ReferrerAnalyze">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENT_DATE" jdbcType="DATE" property="eventDate" />
+    <result column="REFERRER_ID" jdbcType="INTEGER" property="referrerId" />
+    <result column="LEAGUE_ID" jdbcType="INTEGER" property="leagueId" />
+    <result column="ZCOUNT" jdbcType="INTEGER" property="zcount" />
+    <result column="WIN_COUNT" jdbcType="INTEGER" property="winCount" />
+    <result column="DUAL_COUNT" jdbcType="INTEGER" property="dualCount" />
+    <result column="DUAL_WIN_COUNT" jdbcType="INTEGER" property="dualWinCount" />
+    <result column="GP_COUNT" jdbcType="INTEGER" property="gpCount" />
+    <result column="GP_WIN_COUNT" jdbcType="INTEGER" property="gpWinCount" />
+  </resultMap>
+</mapper>

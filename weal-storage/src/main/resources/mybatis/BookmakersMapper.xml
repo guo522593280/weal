@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.BookmakersMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Bookmakers">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="BOOK_NAME" jdbcType="VARCHAR" property="bookName" />
+    <result column="BOOK_NAME_PY" jdbcType="VARCHAR" property="bookNamePy" />
+    <result column="BOOK_TYPE" jdbcType="INTEGER" property="bookType" />
+    <result column="NATION" jdbcType="VARCHAR" property="nation" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, BOOK_NAME, BOOK_NAME_PY, BOOK_TYPE, NATION
+  </sql>
+</mapper>

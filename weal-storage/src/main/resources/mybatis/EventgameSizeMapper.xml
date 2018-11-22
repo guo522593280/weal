@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.EventgameSizeMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.EventgameSize">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="EVENTGAME_ID" jdbcType="INTEGER" property="eventgameId" />
+    <result column="BIGWA" jdbcType="DOUBLE" property="bigwa" />
+    <result column="BIGWA_LIFT" jdbcType="DOUBLE" property="bigwaLift" />
+    <result column="SMALLWA" jdbcType="DOUBLE" property="smallwa" />
+    <result column="SMALLWA_LIFT" jdbcType="DOUBLE" property="smallwaLift" />
+    <result column="DISH" jdbcType="VARCHAR" property="dish" />
+    <result column="DISH_LIFT" jdbcType="INTEGER" property="dishLift" />
+    <result column="RELEASE_DATE" jdbcType="TIMESTAMP" property="releaseDate" />
+    <result column="IS_INITIAL" jdbcType="INTEGER" property="isInitial" />
+    <result column="BOOK_ID" jdbcType="INTEGER" property="bookId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ScheduleJobLogMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.ScheduleJobLog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="SCHEDULE_JOB_ID" jdbcType="INTEGER" property="scheduleJobId" />
+    <result column="JOB_NAME" jdbcType="VARCHAR" property="jobName" />
+    <result column="JOB_GROUP" jdbcType="VARCHAR" property="jobGroup" />
+    <result column="STATE" jdbcType="VARCHAR" property="state" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.weal.storage.entity.ScheduleJobLog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="LOG_INFO" jdbcType="LONGVARCHAR" property="logInfo" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, SCHEDULE_JOB_ID, JOB_NAME, JOB_GROUP, STATE, CREATE_TIME
+  </sql>
+  <sql id="Blob_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    LOG_INFO
+  </sql>
+</mapper>

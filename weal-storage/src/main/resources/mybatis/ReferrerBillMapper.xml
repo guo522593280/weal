@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ReferrerBillMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.ReferrerBill">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="REFERRER_ID" jdbcType="INTEGER" property="referrerId" />
+    <result column="REFERRER_TYPE" jdbcType="VARCHAR" property="referrerType" />
+    <result column="BUY_MONEY" jdbcType="INTEGER" property="buyMoney" />
+    <result column="IS_WIN" jdbcType="INTEGER" property="isWin" />
+    <result column="FEE" jdbcType="INTEGER" property="fee" />
+    <result column="WIN_MONEY" jdbcType="INTEGER" property="winMoney" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, REFERRER_ID, REFERRER_TYPE, BUY_MONEY, IS_WIN, FEE, WIN_MONEY, CREATE_DATE
+  </sql>
+</mapper>

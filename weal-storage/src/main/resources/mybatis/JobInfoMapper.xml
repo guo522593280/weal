@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.JobInfoMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.JobInfo">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="add_time" jdbcType="TIMESTAMP" property="addTime" />
+    <result column="alarm_email" jdbcType="VARCHAR" property="alarmEmail" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="child_job_id" jdbcType="VARCHAR" property="childJobId" />
+    <result column="executor_block_strategy" jdbcType="VARCHAR" property="executorBlockStrategy" />
+    <result column="executor_fail_strategy" jdbcType="VARCHAR" property="executorFailStrategy" />
+    <result column="executor_handler" jdbcType="VARCHAR" property="executorHandler" />
+    <result column="executor_param" jdbcType="VARCHAR" property="executorParam" />
+    <result column="executor_route_strategy" jdbcType="VARCHAR" property="executorRouteStrategy" />
+    <result column="glue_remark" jdbcType="VARCHAR" property="glueRemark" />
+    <result column="glue_source" jdbcType="VARCHAR" property="glueSource" />
+    <result column="glue_type" jdbcType="VARCHAR" property="glueType" />
+    <result column="glue_updatetime" jdbcType="TIMESTAMP" property="glueUpdatetime" />
+    <result column="job_cron" jdbcType="VARCHAR" property="jobCron" />
+    <result column="job_desc" jdbcType="VARCHAR" property="jobDesc" />
+    <result column="job_group" jdbcType="INTEGER" property="jobGroup" />
+    <result column="job_status" jdbcType="VARCHAR" property="jobStatus" />
+    <result column="registration_center" jdbcType="VARCHAR" property="registrationCenter" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="creator" jdbcType="VARCHAR" property="creator" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="mender" jdbcType="VARCHAR" property="mender" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="belonged" jdbcType="INTEGER" property="belonged" />
+    <result column="init" jdbcType="INTEGER" property="init" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, add_time, alarm_email, author, child_job_id, executor_block_strategy, executor_fail_strategy, 
+    executor_handler, executor_param, executor_route_strategy, glue_remark, glue_source, 
+    glue_type, glue_updatetime, job_cron, job_desc, job_group, job_status, registration_center, 
+    update_time, create_time, creator, description, mender, name, belonged, init
+  </sql>
+</mapper>

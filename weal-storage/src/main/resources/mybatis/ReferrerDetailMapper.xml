@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ReferrerDetailMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.ReferrerDetail">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="REFERRER_BILL_ID" jdbcType="INTEGER" property="referrerBillId" />
+    <result column="EVENTGAME_ID" jdbcType="VARCHAR" property="eventgameId" />
+    <result column="GUESS_TYPE" jdbcType="INTEGER" property="guessType" />
+    <result column="GUESS" jdbcType="VARCHAR" property="guess" />
+    <result column="ODDS" jdbcType="VARCHAR" property="odds" />
+    <result column="IS_WIN" jdbcType="INTEGER" property="isWin" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, REFERRER_BILL_ID, EVENTGAME_ID, GUESS_TYPE, GUESS, ODDS, IS_WIN, CREATE_DATE
+  </sql>
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.ScheduleJobMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.ScheduleJob">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="JOB_GROUP" jdbcType="VARCHAR" property="jobGroup" />
+    <result column="JOB_NAME" jdbcType="VARCHAR" property="jobName" />
+    <result column="JOB_CONFIG" jdbcType="VARCHAR" property="jobConfig" />
+    <result column="SPRING_ID" jdbcType="VARCHAR" property="springId" />
+    <result column="CLASS_NAME" jdbcType="VARCHAR" property="className" />
+    <result column="METHOD_NAME" jdbcType="VARCHAR" property="methodName" />
+    <result column="JOB_STATUS" jdbcType="VARCHAR" property="jobStatus" />
+    <result column="IS_CONCURRENT" jdbcType="VARCHAR" property="isConcurrent" />
+    <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="ORDER_BY" jdbcType="INTEGER" property="orderBy" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, JOB_GROUP, JOB_NAME, JOB_CONFIG, SPRING_ID, CLASS_NAME, METHOD_NAME, JOB_STATUS, 
+    IS_CONCURRENT, DESCRIPTION, REMARK, ORDER_BY, UPDATE_TIME, CREATE_TIME
+  </sql>
+</mapper>

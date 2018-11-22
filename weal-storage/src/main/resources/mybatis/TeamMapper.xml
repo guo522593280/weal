@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weal.storage.repository.TeamMapper">
+  <resultMap id="BaseResultMap" type="com.weal.storage.entity.Team">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PKID" jdbcType="INTEGER" property="pkid" />
+    <result column="TEAM_NAME" jdbcType="VARCHAR" property="teamName" />
+    <result column="TEAM_NICK_NAME" jdbcType="VARCHAR" property="teamNickName" />
+    <result column="TEAM_NAME_PY" jdbcType="VARCHAR" property="teamNamePy" />
+    <result column="TEAM_LINK" jdbcType="VARCHAR" property="teamLink" />
+    <result column="SETUP_TIME" jdbcType="VARCHAR" property="setupTime" />
+    <result column="COUNTRIES_AREA" jdbcType="VARCHAR" property="countriesArea" />
+    <result column="CITY" jdbcType="VARCHAR" property="city" />
+    <result column="TEAM_WORTH" jdbcType="VARCHAR" property="teamWorth" />
+    <result column="RANKING" jdbcType="INTEGER" property="ranking" />
+    <result column="SCORE" jdbcType="INTEGER" property="score" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    PKID, TEAM_NAME, TEAM_NICK_NAME, TEAM_NAME_PY, TEAM_LINK, SETUP_TIME, COUNTRIES_AREA, 
+    CITY, TEAM_WORTH, RANKING, SCORE
+  </sql>
+</mapper>
