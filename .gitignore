@@ -56,7 +56,6 @@ local.properties
 ######################
 .idea/
 *.iml
-*.yml
 boms-gray/
 #.gitignore
 *.iws
